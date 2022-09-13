@@ -13,7 +13,6 @@ mod tests {
 
     #[test]
     fn test01() {
-        common::setup();
         let result = add_one(2);
         assert_eq!(result, 3);
     }

@@ -1,4 +1,5 @@
+use {{crate_name}};
+
 fn main() {
-    exec();
-    println!("Hello , {{project-name}}.");
+    {{crate_name}}::exec();
 }
